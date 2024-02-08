@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Main {
     ////ú//
-
+//pokus
     ///////
     public static void main(String[] args) {
         List<Computer> computers = new ArrayList<>();
