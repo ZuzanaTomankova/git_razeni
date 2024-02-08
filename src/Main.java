@@ -9,6 +9,8 @@ import java.util.List;
 
 public class Main {
     ////ú//
+
+    ///////
     public static void main(String[] args) {
         List<Computer> computers = new ArrayList<>();
         Computer computer1 = new Computer("Dell", 2019, BigDecimal.valueOf(15000));
