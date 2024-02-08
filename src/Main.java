@@ -12,6 +12,8 @@ public class Main {
         List<Computer> computers = new ArrayList<>();
         Computer computer1 = new Computer("Dell", 2019, BigDecimal.valueOf(15000));
         Computer computer2 = new Computer("HP", 2018, BigDecimal.valueOf(12000));
+        Computer computerx = new Computer("Lenovo", 2017, BigDecimal.valueOf(18000));
+        Computer computery = new Computer("Lenovo", 2017, BigDecimal.valueOf(18000));
         Computer computer3 = new Computer("Lenovo", 2017, BigDecimal.valueOf(18000));
 
         computers.add(computer1);
@@ -26,9 +28,13 @@ public class Main {
 
         System.out.println("Sorted by year: ");
         computers.forEach(System.out::println);
+
         System.out.println("Sorted:");
         for (Computer computer : computers) {
-
             System.out.println(computer);
+
+            Collections.sort(computers);
+            System.out.println("Sorted by description");
         }
-        }}
+        }
+}
