@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Main {
-    ////ú//
+    //treti pokus
 //pokus
     ///////
     public static void main(String[] args) {
