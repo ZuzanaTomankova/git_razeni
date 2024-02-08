@@ -2,12 +2,12 @@ package cz.engeto.ja;
 
 import java.math.BigDecimal;
 
-public class Computers {
+public class Computer {
     private String description;
     private int yearOfProduction;
     BigDecimal price;
 
-    public Computers(String description, int yearOfProduction, BigDecimal price) {
+    public Computer(String description, int yearOfProduction, BigDecimal price) {
         this.description = description;
         this.yearOfProduction = yearOfProduction;
         this.price = price;
@@ -35,5 +35,14 @@ public class Computers {
 
     public void setPrice(BigDecimal price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "description='" + description + '\'' +
+                ", yearOfProduction=" + yearOfProduction +
+                ", price=" + price +
+                " Kč}";
     }
 }
